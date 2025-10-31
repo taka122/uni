@@ -1,0 +1,10 @@
+def message():
+    print("「ずずず すぴぴ」")
+print("村人 A", end="")
+message()
+print("村人 B", end="")
+message()
+print("宿屋", end="")
+message()
+print("村長", end="")
+message()
