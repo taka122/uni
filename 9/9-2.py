@@ -7,7 +7,7 @@ def synthesize(offense1, offense2):
     if offense1 > offense2:
         offense3 = offense1 * 1.2 + offense2
     else:
-        offense3 * 1.2 + offense1
+        offense3 = offense2 * 1.2 + offense1
     return offense3
 print("勇者は金の剣と銀の剣を合成の箱に入れた。")
 print("合成の剣を手に入れた！")
