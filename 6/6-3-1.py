@@ -4,7 +4,7 @@
 #(C)自身のレベルが敵のレベルよりも 3 以上下回っている場合は倒せる見込みはないため逃げる。
 
 levels = range(1, 11)
-header = "|" + " ".join(f"Lv {lvl}" for lvl in levels)
+header = "|" + "".join(f"Lv {lvl}" for lvl in levels)
 print(header)
 print("-----+-----------------------------------------------------------")
 
@@ -21,5 +21,5 @@ for hero in levels:
         else:
             result = "C"
         results.append(result)
-    print(f"Lv {hero}| " + " ".join(results))
+    print(f"Lv {hero}| " + "   ".join(results))
 

@@ -5,6 +5,7 @@ while True:
 
     print("元の番号", num)
     g = True
+    
     for i in range(len(num) // 2):
         if num[i] != num[-(i + 1)]:
             g = False
